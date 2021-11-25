@@ -1,0 +1,78 @@
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #111;
+    max-width: 50%;
+}
+
+.left h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.left p {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 1%;
+    padding-right: 5%;
+}
+
+.left .description {
+    height: 15%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.right {
+    right: 0;
+    background-color: lightgrey;
+    color: black;
+    max-width: 50%;
+}
+
+.right img {
+    max-width: 60%;
+    border: 5px solid darkgrey;
+    border-radius: 30px;
+}
+
+.right h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.right p {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 5%;
+}
+
+.right #raw {
+    padding: 5%;
+}
